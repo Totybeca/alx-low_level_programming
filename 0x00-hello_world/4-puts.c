@@ -1,6 +1,11 @@
 
 #include <stdio.h>
 
+/**
+ * main - Starting point
+ *
+ * Return: Should return 0
+ */
 int main(void)
 
 {
