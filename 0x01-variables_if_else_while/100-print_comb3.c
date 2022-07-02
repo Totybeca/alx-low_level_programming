@@ -1,28 +1,34 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+  * main - Prints combination of numbers
+  *
+  * Return: Always (Success)
+  */
 int main(void)
 {
-int d;
-for (d = 1; d < 90; d++)
-{
+	int c, i;
 
+	for (c = '0'; c <= '9'; c++)
+	{
+		for (i = '0'; i <= '9'; i++)
+		{
+			if (c < i)
+			{
+				putchar(c);
+				putchar(i);
 
-putchar((d / 10) + '0');
-putchar((d % 10) + '0');
+				if (c != '8' || (c == '8' && i != '9'))
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
+	}
 
-if (d != 89)
-{
-putchar(',');
-putchar(' ');
-}
-}
-putchar('\n');
-return (0);
+	putchar('\n');
+
+	return (0);
 }
 
