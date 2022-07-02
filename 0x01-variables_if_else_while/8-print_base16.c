@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.iih>
 #include <stdlib.h>
 #include <time.h>
 /**
@@ -17,7 +17,7 @@ putchar(d);
 for (low = 'a'; low <= 'f'; low++)
 {
 putchar(low);
-putchar('\n');
 }
+putchar('\n');
 return (0);
 	}
