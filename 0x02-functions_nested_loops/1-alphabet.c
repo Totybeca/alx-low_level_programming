@@ -1,11 +1,7 @@
 #include "main.h"
 /**
-* main - Entry point
-*
-* Return: always 0 (success)
+* print_alphabet() - function to print abc
 */
-
-/* print_alphabet() - function to print abc */
 void print_alphabet(void)
 {
 char i = 'a';
