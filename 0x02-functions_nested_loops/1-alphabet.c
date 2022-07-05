@@ -5,12 +5,7 @@
 * Return: always 0 (success)
 */
 
-void print_alphabet(){
-  char i = 'a';
-  for(i = 'a'; i <= 'z'; i++){
-      putchar(i);
-  }
-}
+void print_alphabet();
 
 int main(void)
 {
@@ -18,4 +13,10 @@ int main(void)
     return (0);
 }
 
+void print_alphabet(){
+  char i = 'a';
+  for(i = 'a'; i <= 'z'; i++){
+      putchar(i);
+  }
+}
 
