@@ -4,8 +4,6 @@
 *
 * Return: always 0 (success)
 */
-
-/* print alphabet */
 void print_alphabet(void)
 {
 char i = 'a';
