@@ -6,7 +6,9 @@
 */
 
 /**
-* print_alphabet function to print lowercase
+* print alphabet function to print lowercase
+*
+* no description found for function print_alphabet
 */
 void print_alphabet(void)
 {
