@@ -5,7 +5,7 @@
 * Return: always 0 (success)
 */
 
-void _putchar(char value)
+void _putchar(int value)
 {
 putchar(value);
 
