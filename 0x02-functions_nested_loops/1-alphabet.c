@@ -2,7 +2,7 @@
 /**
 * main - Entry point
 *
-* print_alphabet - function to print abc
+* print_alphabet() - function to print abc
 *
 * Return: always 0 (success)
 *
