@@ -1,11 +1,13 @@
+#include <stdio.h>
 #include <main.h>
-\**
+/**
 * main - Entry point
 *
-* Return: always 0 (success)
+* Return: Always 0 (Success)
 */
-main(void)
+int main(void)
 {
+
 _putchar('p');
 _putchar('u');
 _putchar('t');
@@ -13,7 +15,5 @@ _putchar('c');
 _putchar('h');
 _putchar('a');
 _putchar('r');
-	
+_putchar('\n');
 
-return: (0);
-}
