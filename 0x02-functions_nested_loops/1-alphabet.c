@@ -3,6 +3,7 @@
 * main - Entry point
 *
 * Return: always 0 (success)
+* print_alphabet
 */
 void print_alphabet(void)
 {
