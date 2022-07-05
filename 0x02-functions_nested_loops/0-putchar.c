@@ -4,15 +4,18 @@
 *
 * Return: always 0 (success)
 */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
 
-int main(void)
+int main()
 {
-_putchar("_putchar");
-_putchar("\n");
+putchar('_');
+putchar('p');
+putchar('u');
+putchar('t');
+putchar('c');
+putchar('h');
+putchar('a');
+putchar('r');
+putchar('\n');
 return (0);  
 
 }
