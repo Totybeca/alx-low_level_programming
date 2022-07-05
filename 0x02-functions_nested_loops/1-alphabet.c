@@ -5,6 +5,8 @@
 * Return: always 0 (success)
 */
 
+void print_alphabet();
+
 void print_alphabet(){
       char i = 'a';
   for(i = 'a'; i <= 'z'; i++){
