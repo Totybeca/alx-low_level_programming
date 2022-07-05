@@ -6,7 +6,7 @@
 *
 * Return: always 0 (success)
 *
-* print_alphabet - function to print abc
+* print_alphabet(void) - function to print abc
 */
 void print_alphabet(void)
 {
