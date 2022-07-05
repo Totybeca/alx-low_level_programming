@@ -6,15 +6,16 @@
 */
 
 void print_alphabet(){
-for(char i = 'a'; i <= 'z'; i++){
-putchar(i);
-}
+  char i = 'a';
+  for(i = 'a'; i <= 'z'; i++){
+    _putchar(i);
+  }
 }
 
 int main(void)
 {
   
 print_alphabet();
-putchar('\n');
+_putchar('\n');
 return (0);
 }
