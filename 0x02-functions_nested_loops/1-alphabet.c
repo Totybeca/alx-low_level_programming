@@ -5,14 +5,13 @@
 * Return: always 0 (success)
 */
 
-
-int main(void)
-{
-     char i = 'a';
+void print_alphabet(){
+      char i = 'a';
   for(i = 'a'; i <= 'z'; i++){
       putchar(i);
   }
       putchar('\n');
-    return (0);
+    
 }
+
 
