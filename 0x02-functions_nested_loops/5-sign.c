@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *  function that prints the sign of a number.
+ *  print_sign(int n) function that prints the sign of a number.
  * 
  * Return: 0
  */
@@ -17,9 +17,6 @@ else if(n == 0)
 putchar('0');
 return (0);
 }
-else if(n < 0)
-{
 putchar('_');
-return (-1);
-}
+return (-1);  
 }
