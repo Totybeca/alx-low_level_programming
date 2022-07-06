@@ -1,11 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* main - Entry point
-* int print_sign(int n) function that prints the sign of a number.
-*
-* Return: Always 0 (Success)
-*/
+ * print_sign - function to print sign
+ * @n:  is the int that will use for the argument of the function
+ * Return: 0
+ */
 int print_sign(int n)
 {
 if (n > 0)
