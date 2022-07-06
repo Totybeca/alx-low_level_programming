@@ -16,7 +16,4 @@ int _islower(int c)
   return (lower);
 }
 
-void _putchar(char c)
-{
-putchar(c);
-}
+
