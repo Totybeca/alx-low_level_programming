@@ -15,3 +15,8 @@ int _islower(int c)
   }
   return (lower);
 }
+
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
