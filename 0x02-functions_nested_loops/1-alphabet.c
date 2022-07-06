@@ -1,7 +1,9 @@
-#include <stdio.h>
+#include "stdio.h"
 /**
-* print_alphabet() - function to print abcdefghijklmnop-z
-*/
+* print_alphabet - function to print abc
+ *
+ * Return: 0
+ */
 void print_alphabet(void)
 {
 char i = 'a';
@@ -11,3 +13,4 @@ putchar(i);
 }
 putchar('\n');
 }
+
