@@ -1,3 +1,10 @@
+#include "main.h"
+#include <stdio.h>
+/**
+ *  function that prints the sign of a number.
+ * 
+ * Return: 0
+ */
 int print_sign(int n)
 {
 if(n > 0)
