@@ -6,11 +6,10 @@
  */
 int _islower(int c)
 {
- char a;
-  int lower =0;
-  for (a = 'i'; a <= 'k'; a++)
+ 
+  int lower = 0;
+  if(islower(c))
   {
-  if (a == c)
    lower = 1;
   }
   return (lower);
