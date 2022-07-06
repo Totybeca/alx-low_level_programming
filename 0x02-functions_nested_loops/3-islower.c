@@ -6,10 +6,12 @@
  */
 int _islower(int c)
 {
-if (c >= 'a' && c <= 'z')
-{
-return (1);
-}
-else
-return (0);
+ char a;
+  int lower =0;
+  for (a = 'i'; a <= 'k'; a++)
+  {
+  if (a == c)
+   lower = 1;
+  }
+  return (lower);
 }
