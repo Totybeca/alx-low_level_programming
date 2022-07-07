@@ -12,8 +12,8 @@ if (n > 0)
 {
 for (int i = 0; i < n; i++)
 {
-_putchar('_');
+putchar('_');
 }
 }
-_putchar('\n');
+putchar('\n');
 }
