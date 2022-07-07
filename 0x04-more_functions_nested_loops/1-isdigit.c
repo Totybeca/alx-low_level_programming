@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <ctype.h>
 
 /**
 * _isdigit - It is a function that checks for digits
