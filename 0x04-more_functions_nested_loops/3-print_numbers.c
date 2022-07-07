@@ -5,7 +5,7 @@
 * Return: It returns 0 to 9 after which a new line is made.
 */
 
-void print_numbers(void);
+void print_numbers(void)
 {
 int j;
 for (j = 0; j < 10; j++)
