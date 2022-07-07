@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
 * printing_numbers - It is a function that prints numbers from 0 to 9.
 *
