@@ -1,8 +1,9 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
-* print_diagonal - It is a function that prints diagonal line
-* @n: input number of times digonal should be printed
+* print_diagonal - function to print diagonal line
+* @n:  is the int that will use for the argument of the function
 */
 
 void print_diagonal(int n)
