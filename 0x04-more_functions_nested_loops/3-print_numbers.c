@@ -9,12 +9,8 @@ void print_numbers(void);
 {
 int j;
 for (j = 0; j < 10; j++)
-<<<<<<< HEAD
 {
 _putchar(j);
 }
-=======
-_putchar(j + '0');
->>>>>>> c5bfa3c7411c3890df4ae89d41924a67d0df7363
 _putchar('\n');
 }
