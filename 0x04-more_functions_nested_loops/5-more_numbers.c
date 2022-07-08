@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
-* more_numbers - function to print 0-14 10 times
-* putchar only three times
-* Return: Numbers from 0-14 10 times followed by a new line
-*/
+ * more_numbers - a function that prints 10 times the numbers, from 0 to 14
+ * _putchar only 3 times
+ * Return: 0-14 x10 followed by new line
+ */
 void more_numbers(void)
 {
 int i;
