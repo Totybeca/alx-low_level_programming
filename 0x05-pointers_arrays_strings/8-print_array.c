@@ -15,9 +15,10 @@ for (a = 0; c < n; c++)
 {
 printf("%d", a[c]);
 
-if (c == n - 1)
-continue;
+if (c != (n - 1))
+{
 printf(", ");
+}
 }
 printf("\n");
 }
