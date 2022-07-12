@@ -9,13 +9,13 @@
  */
 void print_array(int *a, int n)
 {
-int index;
+int c;
 
-for (index = 0; index < n; index++)
+for (a = 0; c < n; c++)
 {
-printf("%d", a[index]);
+printf("%d", a[c]);
 
-if (index == n - 1)
+if (c == n - 1)
 continue;
 printf(", ");
 }
