@@ -2,10 +2,10 @@
 #include <string.h>
 
 /**
- * _strcmp - a function that compares two strings
+ * _strcmp - A function that compares two strings
  * @s1: input one
  * @s2: input two
- * Return: Always 0 (Success)
+ * Return: Integer
  */
 int _strcmp(char *s1, char *s2)
 {
