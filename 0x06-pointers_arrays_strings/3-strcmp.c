@@ -3,7 +3,7 @@
 /**
  * _strcat - This is a function that concatenates two strings
  * @dest: Accepts the  src string
- * @src: Appends src string to dest
+ * @src: Appends src string to destclear
  * Return: A pointer to the resulting string dest
  */
 char *_strcat(char *dest, char *src)
@@ -20,3 +20,4 @@ for(b = 0; (dest[a + b] = *src++) != '\0'; b++)
 }
 return (dest);
 }
+
