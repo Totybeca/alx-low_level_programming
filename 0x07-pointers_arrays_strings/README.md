@@ -1,0 +1,1 @@
+This is a readme file for todays project 0x07-pointers_arrays_and_strings. I have learnt how to use pointer to another pointer, multi-dimensional arrays and 2-dimensional arrays. Also, the most common C standard library functions to manipulate strings.
