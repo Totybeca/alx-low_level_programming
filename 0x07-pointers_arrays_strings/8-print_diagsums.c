@@ -26,4 +26,3 @@ int index, sum1 = 0, sum2 = 0;
 	printf("%d, %d\n", sum1, sum2);
 }
 
-
