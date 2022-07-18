@@ -1,6 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
-char *_memset(char *s, char b, unsigned int n);
 
 /**
  * File: main.h
@@ -8,7 +7,6 @@ char *_memset(char *s, char b, unsigned int n);
  * Description: Header file that contains all function prototypes used in the 
  * 0x07-pointers_arrays_strings directory.
  */
-#include <Stddef.h>
 
 int _putchar(char c);
 char *_memset(char *s, char b, unsigned int n);
