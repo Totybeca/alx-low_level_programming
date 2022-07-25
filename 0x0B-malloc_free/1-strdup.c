@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
+#include "holberton.h"
 /**
  * _strdup - duplicate to new memory space location
  * @str: char
@@ -28,4 +28,3 @@ char *_strdup(char *str)
 		return (NULL);
 	return (array);
 }
-
