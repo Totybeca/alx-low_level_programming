@@ -3,10 +3,10 @@
 #include "main.h"
 
 /**
- * is_digit - checks if a string contains a non-digit char
+ * is_digit - This is to check if a string contains a non-digit char.
  * @s: string to be evaluated
  *
- * Return: 0 if a non-digit is found, 1 otherwise
+ * Return: 0 if a non-digit is found, return 1 otherwise.
  */
 int is_digit(char *s)
 {
@@ -22,10 +22,10 @@ int is_digit(char *s)
 }
 
 /**
- * _strlen - returns the length of a string
- * @s: string to evaluate
+ * _strlen - This returns the length of a string
+ * @s: The string to be evaluated
  *
- * Return: the length of the string
+ * Return: The length of the string
  */
 int _strlen(char *s)
 {
@@ -39,7 +39,7 @@ int _strlen(char *s)
 }
 
 /**
- * errors - handles errors for main
+ * errors -This handles errors for main
  */
 void errors(void)
 {
@@ -48,11 +48,11 @@ void errors(void)
 }
 
 /**
- * main - multiplies two positive numbers
- * @argc: number of arguments
- * @argv: array of arguments
+ * main - This will multiply the two positive numbers
+ * @argc: Number of arguments
+ * @argv: Array of arguments
  *
- * Return: always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(int argc, char *argv[])
 {
