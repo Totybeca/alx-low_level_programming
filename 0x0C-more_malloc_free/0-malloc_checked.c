@@ -8,14 +8,13 @@
  *
  * Return: A pointer to the allocated memory.
  */
+
 void *malloc_checked(unsigned int b)
 {
-	void *memry;
-
-	memry = malloc(b);
-
-	if (memry == NULL)
-	exit(98);
-	return (memry);
+void *memry;
+memry = malloc(b);
+if (memry == NULL)
+exit(98);
+return (memry);
 }
 
