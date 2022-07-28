@@ -11,10 +11,11 @@
 
 void *malloc_checked(unsigned int b)
 {
-void *memry;
-memry = malloc(b);
-if (memry == NULL)
-exit(98);
-return (memry);
+	void *mem = malloc(b);
+
+	if (mem == NULL)
+		exit(98);
+
+	return (mem);
 }
 
