@@ -23,7 +23,7 @@ int _strlen(char *str)
 
 /**
  * _strcopy - Copies a string pointed to by src, including the
- * terminating null byte, to a buffer pointed to by dest.
+ *            terminating null byte, to a buffer pointed to by dest.
  * @dest: The buffer storing the string copy.
  * @src: The source string.
  *
@@ -51,35 +51,34 @@ char *_strcopy(char *dest, char *src)
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	dog_t *doggo;
+	dog_t *puppy;
 
 	if (name == NULL || age < 0 || owner == NULL)
 		return (NULL);
 
-	doggo = malloc(sizeof(dog_t));
-	if (doggo == NULL)
+	puppy = malloc(sizeof(dog_t));
+	if (puppy == NULL)
 		return (NULL);
 
-	doggo->name = malloc(sizeof(char) * (_strlen(name) + 1));
-	if (doggo->name == NULL)
+	puppy->name = malloc(sizeof(char) * (_strlen(name) + 1));
+	if (puppy->name == NULL)
 	{
-		free(doggo);
+		free(puppy);
 		return (NULL);
 	}
 
-	doggo->owner = malloc(sizeof(char) * (_strlen(owner) + 1));
-	if (doggo->owner == NULL)
+	puppy->owner = malloc(sizeof(char) * (_strlen(owner) + 1));
+	if (puppy->owner == NULL)
 	{
-		free(doggo->name);
-		free(doggo);
+		free(puppy->name);
+		free(puppy);
 		return (NULL);
 	}
 
-	doggo->name = _strcopy(doggo->name, name);
-	doggo->age = age;
-	doggo->owner = _strcopy(doggo->owner, owner);
+	puppy->name = _strcopy(puppy->name, name);
+	puppy->age = age;
+	puppy->owner = _strcopy(puppy->owner, owner);
 
-	return (doggo);
+	return (puppy);
 }
-
 
