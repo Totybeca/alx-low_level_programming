@@ -28,4 +28,8 @@ return (0);
 free(buffer);
 close(o);
 return (w);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 0f8e46d109bbe89d0db06786d4f1ced977faaeff
