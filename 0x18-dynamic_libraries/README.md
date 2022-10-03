@@ -1,4 +1,4 @@
-This is a readme file for today's project. The following was discussed:
+This is a read me file for today's task
 What is a dynamic library, how does it work, how to create one, and how to use it
 What is the environment variable $LD_LIBRARY_PATH and how to use it
 What are the differences between static and shared libraries
